@@ -2,7 +2,7 @@
 Software for automating oil well test analysis. 
 
 ## Input
-Temporal pressure test data is read into the program in csv format and reservoir data is typed into entry widgets.
+Temporal pressure test data is read into the program in csv format and reservoir data is typed into entry widgets. Radio buttons are included to allow the user to select the type of well test to be analyzed.
 
 ## Process
 Test data is searched to find the appropriate time region for analysis after which it is fitted to a linear equation. The slope of the resulting linear equation alongside the reservoir data is used to calculate important reservoir parameters like the permeability, skin and initial pressure. 
